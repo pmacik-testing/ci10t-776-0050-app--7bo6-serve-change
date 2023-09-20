@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-lhk6
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-776-0050-tenant/ci10t-776-0050-app/devfile-sample-lhk6@sha256:e9d66bddc757864816933e26c575c8cbbf53a26ae2485ae98373e05b80ade61a
+        name: my-nodejs
+        resources: {}
+status: {}
